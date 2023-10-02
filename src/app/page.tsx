@@ -1,3 +1,12 @@
+import { Hero, Skills, ProjectsContainer, BlogsContainer } from '@/components';
+
 export default function Home() {
-  return <main></main>;
+  return (
+    <main>
+      <Hero />
+      <Skills />
+      <ProjectsContainer />
+      <BlogsContainer />
+    </main>
+  );
 }
