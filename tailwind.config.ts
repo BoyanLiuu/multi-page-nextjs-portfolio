@@ -16,7 +16,7 @@ const config: Config = {
         'warning-red': '#FF6F5B'
       },
       fontSize: {
-        'customized-xl': [
+        'customized-xxl': [
           '88px',
           {
             lineHeight: '88px',
@@ -24,7 +24,7 @@ const config: Config = {
             fontWeight: '700'
           }
         ],
-        'customized-l': [
+        'customized-xl': [
           '48px',
           {
             lineHeight: '56px',
@@ -32,11 +32,32 @@ const config: Config = {
             fontWeight: '700'
           }
         ],
+        'customized-l': [
+          '40px',
+          {
+            lineHeight: '40px',
+            fontWeight: '700'
+          }
+        ],
         'customized-m': [
+          '32px',
+          {
+            lineHeight: '40px',
+            fontWeight: '700'
+          }
+        ],
+        'customized-s': [
           '24px',
           {
             lineHeight: '32px',
             fontWeight: '700'
+          }
+        ],
+        'customized-xs': [
+          '16px',
+          {
+            lineHeight: '26px',
+            fontWeight: '500'
           }
         ]
       }

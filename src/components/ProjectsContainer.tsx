@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ProjectsContainer = () => {
-  return <div>ProjectsContainer</div>;
+  return <section className='bg-dark-black py-20'>ProjectsContainer</section>;
 };
 
 export default ProjectsContainer;

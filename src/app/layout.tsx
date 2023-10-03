@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className='min-h-full min-w-full overflow-x-hidden antialiased'>
         <Header />
         {children}
-        <h1>sssss</h1>
+
         <Footer />
       </body>
     </html>
