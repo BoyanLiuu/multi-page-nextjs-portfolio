@@ -1,5 +1,12 @@
 import { v4 as uuidv4 } from 'uuid';
 
+export type ProjectType = {
+  thumbnail: string;
+  name: string;
+  tags: string[];
+  codeUrl: string;
+  liveUrl: string;
+};
 export type PersonalInformationType = {
   firstName: string;
   lastName: string;
@@ -21,14 +28,7 @@ export type PersonalInformationType = {
     years: string;
     content: string[];
   }[];
-  projects: {
-    smallThumbnail: string;
-    largeThumbnail: string;
-    name: string;
-    tags: string[];
-    codeUrl: string;
-    liveUrl: string;
-  }[];
+  projects: ProjectType[];
 
   about: string;
   socialMedias: {
@@ -125,48 +125,47 @@ export const PERSONAL_INFORMATION: PersonalInformationType = {
   ],
   projects: [
     {
-      smallThumbnail: './images/thumbnail-project-1-small.webp',
-      largeThumbnail: './images/thumbnail-project-1-large.webp',
+      thumbnail: '/images/thumbnail-project-1-small.webp',
       name: 'DESIGN PORTFOLIO',
       tags: ['HTML', 'CSS'],
       codeUrl: 'https://www.frontendmentor.io/challenges',
       liveUrl: 'https://www.frontendmentor.io/challenges'
     },
     {
-      smallThumbnail: './images/thumbnail-project-2-small.webp',
-      largeThumbnail: './images/thumbnail-project-2-large.webp',
+      thumbnail: '/images/thumbnail-project-2-small.webp',
+
       name: 'E-LEARNING LANDING PAGE',
       tags: ['HTML', 'CSS'],
       codeUrl: 'https://www.frontendmentor.io/challenges',
       liveUrl: 'https://www.frontendmentor.io/challenges'
     },
     {
-      smallThumbnail: './images/thumbnail-project-3-small.webp',
-      largeThumbnail: './images/thumbnail-project-3-large.webp',
+      thumbnail: '/images/thumbnail-project-3-small.webp',
+
       name: 'TODO WEB APP',
       tags: ['HTML', 'CSS', 'Javascript'],
       codeUrl: 'https://www.frontendmentor.io/challenges',
       liveUrl: 'https://www.frontendmentor.io/challenges'
     },
     {
-      smallThumbnail: './images/thumbnail-project-4-small.webp',
-      largeThumbnail: './images/thumbnail-project-4-large.webp',
+      thumbnail: '/images/thumbnail-project-4-small.webp',
+
       name: 'ENTERTAINMENT WEB APP',
       tags: ['HTML', 'CSS', 'Javascript'],
       codeUrl: 'https://www.frontendmentor.io/challenges',
       liveUrl: 'https://www.frontendmentor.io/challenges'
     },
     {
-      smallThumbnail: './images/thumbnail-project-5-small.webp',
-      largeThumbnail: './images/thumbnail-project-5-large.webp',
+      thumbnail: '/images/thumbnail-project-5-small.webp',
+
       name: 'MEMORY GAME',
       tags: ['HTML', 'CSS', 'Javascript'],
       codeUrl: 'https://www.frontendmentor.io/challenges',
       liveUrl: 'https://www.frontendmentor.io/challenges'
     },
     {
-      smallThumbnail: './images/thumbnail-project-6-small.webp',
-      largeThumbnail: './images/thumbnail-project-6-large.webp',
+      thumbnail: '/images/thumbnail-project-6-small.webp',
+
       name: 'ART GALLERY SHOWCASE',
       tags: ['HTML', 'CSS', 'Javascript'],
       codeUrl: 'https://www.frontendmentor.io/challenges',

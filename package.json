@@ -15,6 +15,7 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "sass": "^1.68.0",
     "uuid": "^9.0.1"
   },
   "devDependencies": {

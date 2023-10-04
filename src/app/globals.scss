@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  ::placeholder {
+    @apply text-base font-medium leading-[26px];
+  }
+}
+
+
+@layer components {
+  .contact__input {
+      @apply h-[43px] w-full appearance-none pb-4 pl-6 outline-none bg-transparent border-b-[1px] border-b-white mb-8;
+  }
+  
+  .link__underline{
+
+    &::after {
+      @apply bg-bright-green absolute bottom-[-10px] left-0 h-[2px] w-full content-[''];
+    }
+  }
+  .icon-bar{
+    @apply w-6 h-1 transition-transform delay-150 ease-ease bg-white mb-1
+  }
+  
+}

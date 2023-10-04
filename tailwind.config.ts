@@ -60,6 +60,17 @@ const config: Config = {
             fontWeight: '500'
           }
         ]
+      },
+      transitionTimingFunction: {
+        ease: 'ease'
+      },
+      screens: {
+        desktop: '1440px',
+        tablet: '768px',
+        phone: '375px'
+      },
+      aspectRatio: {
+        'project-card': '1.4 / 1'
       }
     }
   },

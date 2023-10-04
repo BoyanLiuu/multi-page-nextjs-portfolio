@@ -5,8 +5,8 @@ const Contact = () => {
     <section className='bg-dark-grey px-4 pb-[87px] pt-[60px]'>
       <div>
         <div>
-          <h2 className='text-customized-l mb-5 text-white'>Contact</h2>
-          <p className='text-light-grey mb-[50px] text-base font-medium leading-[26px]'>
+          <h2 className='mb-5 text-customized-l text-white'>Contact</h2>
+          <p className='mb-[50px] text-base font-medium leading-[26px] text-light-grey'>
             I would love to hear about your project and how I could help. Please fill in the form,
             and I’ll get back to you as soon as possible.
           </p>
@@ -40,7 +40,7 @@ const Contact = () => {
             ></textarea>
           </form>
 
-          <button className=" after:bg-bright-green relative w-fit self-end text-base font-bold leading-[26px] tracking-[2.29px] text-white after:absolute after:bottom-[-10px] after:left-0 after:h-[2px] after:w-[144px] after:content-['']">
+          <button className=' link__underline relative w-fit self-end text-base font-bold leading-[26px] tracking-[2.29px] text-white '>
             SEND MESSAGE
           </button>
         </div>
