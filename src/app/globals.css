@@ -23,5 +23,10 @@
   .icon-bar{
     @apply w-6 h-1 transition-transform delay-150 ease-ease bg-white mb-1
   }
+  .blog__card {
+    &:hover .blog__title {
+      @apply underline
+    }
+  }
   
 }

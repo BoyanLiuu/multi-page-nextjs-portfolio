@@ -1,4 +1,4 @@
-import './globals.scss';
+import './globals.css';
 import type { Metadata } from 'next';
 import { Header, Footer } from '@/components';
 
@@ -13,7 +13,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className='min-h-full min-w-full overflow-x-hidden antialiased'>
         <Header />
         {children}
-
         <Footer />
       </body>
     </html>

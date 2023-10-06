@@ -13,7 +13,8 @@ const config: Config = {
         'dark-grey': '#242424',
         'light-grey': '#d9d9d9',
         'bright-green': '#4EE1A0',
-        'warning-red': '#FF6F5B'
+        'warning-red': '#FF6F5B',
+        'blue-grey': '#716f8f'
       },
       fontSize: {
         'customized-xxl': [
@@ -70,7 +71,8 @@ const config: Config = {
         phone: '375px'
       },
       aspectRatio: {
-        'project-card': '1.4 / 1'
+        'project-card': '1.4 / 1',
+        'blog-card': '5 / 3'
       }
     }
   },

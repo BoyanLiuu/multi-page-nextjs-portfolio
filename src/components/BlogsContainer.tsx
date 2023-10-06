@@ -1,7 +1,12 @@
 import React from 'react';
+import { BlogCard } from './index';
 
 const BlogsContainer = () => {
-  return <div> BlogsContainer</div>;
+  return (
+    <section>
+      <BlogCard />
+    </section>
+  );
 };
 
 export default BlogsContainer;
